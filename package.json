@@ -1,0 +1,28 @@
+{
+  "name": "tth-project-6",
+  "version": "1.0.0",
+  "description": "Project for Treehouse Techdegree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasu207/tth-techdegree-project6.git"
+  },
+  "keywords": [
+    "javascript",
+    "node.js",
+    "express"
+  ],
+  "author": "Philipp Richter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kasu207/tth-techdegree-project6/issues"
+  },
+  "homepage": "https://github.com/kasu207/tth-techdegree-project6#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
