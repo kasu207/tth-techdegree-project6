@@ -1,5 +1,4 @@
 const express = require('express');
-const { data } = require('./data.json');
 const app = express();
 
 app.use('/static', express.static('public'));
@@ -8,6 +7,10 @@ app.set('view engine', 'pug');
 //routes
 const mainRoutes = require('./routes');
 app.use(mainRoutes);
+
+//routes - projects 
+const projectRoutes = require('./routes/projects');
+app.use('/projects', projectRoutes);
 
 //Errors
 app.use((req, res, next) => {

@@ -1,26 +1,26 @@
-{
-    "project": [{
+{ "data" : {
+    "projects": [{
         "id": 1,
         "project_name": "Project1",
-        "technologies": "HTML",
+        "technologies": "HTML, Javascript",
         "live_link": "",
-        "github_link": "",
+        "github_link": "https://github.com/kasu207/tth-techdegree-project1",
         "image_urls": ["", "", ""]
     },
     {
         "id": 2,
         "project_name": "Project2",
-        "technologies": "HTML",
+        "technologies": "HTML, Javascript",
         "live_link": "",
-        "github_link": "",
+        "github_link": "https://github.com/kasu207/tth-techdegree-project2",
         "image_urls": ["", "", ""]
     },
     {
         "id": 3,
         "project_name": "Project3",
-        "technologies": "HTML",
+        "technologies": "HTML, Javascript",
         "live_link": "",
-        "github_link": "",
+        "github_link": "https://github.com/kasu207/tth-techdegree-project3",
         "image_urls": ["", "", ""]
     },
     {
@@ -28,7 +28,7 @@
         "project_name": "Project4",
         "technologies": "HTML",
         "live_link": "",
-        "github_link": "",
+        "github_link": "https://github.com/kasu207/tth-techdegree-project4",
         "image_urls": ["", "", ""]
     },
     {
@@ -36,14 +36,16 @@
         "project_name": "Project5",
         "technologies": "HTML",
         "live_link": "",
-        "github_link": "",
+        "github_link": "https://github.com/kasu207/tth-techdegree-project5",
         "image_urls": ["", "", ""]
     },{
         "id": 6,
         "project_name": "Project6",
         "technologies": "HTML",
         "live_link": "",
-        "github_link": "",
+        "github_link": "https://github.com/kasu207/tth-techdegree-project6",
         "image_urls": ["", "", ""]
     }]
+}
+    
 }
