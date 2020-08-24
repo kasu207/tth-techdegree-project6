@@ -1,0 +1,57 @@
+{ "data" : {
+    "projects": [{
+        "id": 1,
+        "project_name": "Project1",
+        "technologies": ["HTML", "Javascript"],
+        "description" : "first Treehouse Project",
+        "live_link": "",
+        "github_link": "https://github.com/kasu207/tth-techdegree-project1",
+        "image_urls": ["https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550"]
+    },
+    {
+        "id": 2,
+        "project_name": "Project2",
+        "description" : "second Treehouse Project",
+        "technologies": ["HTML", "Javascript"],
+        "live_link": "",
+        "github_link": "https://github.com/kasu207/tth-techdegree-project2",
+        "image_urls": ["https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550"]
+    },
+    {
+        "id": 3,
+        "project_name": "Project3",
+        "description" : "third Treehouse Project",
+        "technologies": ["HTML", "Javascript"],
+        "live_link": "",
+        "github_link": "https://github.com/kasu207/tth-techdegree-project3",
+        "image_urls": ["https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550"]
+    },
+    {
+        "id": 4,
+        "project_name": "Project4",
+        "description" : "fourth Treehouse Project",
+        "technologies": ["HTML"],
+        "live_link": "",
+        "github_link": "https://github.com/kasu207/tth-techdegree-project4",
+        "image_urls": ["https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550"]
+    },
+    {
+        "id": 5,
+        "project_name": "Project5",
+        "description" : "fifth Treehouse Project",
+        "technologies": ["HTML"],
+        "live_link": "",
+        "github_link": "https://github.com/kasu207/tth-techdegree-project5",
+        "image_urls": ["https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550"]
+    },{
+        "id": 6,
+        "project_name": "Project6",
+        "description" : "six Treehouse Project",
+        "technologies": ["HTML"],
+        "live_link": "",
+        "github_link": "https://github.com/kasu207/tth-techdegree-project6",
+        "image_urls": ["https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550"]
+    }]
+}
+    
+}
