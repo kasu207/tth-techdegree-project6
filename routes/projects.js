@@ -8,10 +8,10 @@ router.get( '/', ( req, res ) => {
     const projectId = projects.id
     res.redirect( `/projects/${projectId}` )
 });
+
 router.get('/:id', (req, res) => {
     const { id } = req.params;
     const { project_name, description, technologies, live_link, github_link, image_urls } = projects[id];
-
 
     const templateData = { id };
     templateData.project_name = project_name;

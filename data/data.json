@@ -6,7 +6,7 @@
         "description" : "first Treehouse Project",
         "live_link": "",
         "github_link": "https://github.com/kasu207/tth-techdegree-project1",
-        "image_urls": ["https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550"]
+        "image_urls": ["/static/images/project1.png"]
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "technologies": ["HTML", "Javascript"],
         "live_link": "",
         "github_link": "https://github.com/kasu207/tth-techdegree-project2",
-        "image_urls": ["https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550"]
+        "image_urls": ["/static/images/project2.png"]
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "technologies": ["HTML", "Javascript"],
         "live_link": "",
         "github_link": "https://github.com/kasu207/tth-techdegree-project3",
-        "image_urls": ["https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550"]
+        "image_urls": ["/static/images/project3.png", "/static/images/project31.png"]
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "technologies": ["HTML"],
         "live_link": "",
         "github_link": "https://github.com/kasu207/tth-techdegree-project4",
-        "image_urls": ["https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550"]
+        "image_urls": ["/static/images/project4.png", "/static/images/project41.png"]
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "technologies": ["HTML"],
         "live_link": "",
         "github_link": "https://github.com/kasu207/tth-techdegree-project5",
-        "image_urls": ["https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550"]
+        "image_urls": ["/static/images/project5.png", "/static/images/project51.png"]
     },{
         "id": 6,
         "project_name": "Project6",
