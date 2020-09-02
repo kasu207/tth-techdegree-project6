@@ -39,7 +39,7 @@
         "id": 5,
         "project_name": "Project5",
         "description" : "fifth Treehouse Project",
-        "technologies": ["HTML"],
+        "technologies": ["HTML", "Javascript", "CSS"],
         "live_link": "",
         "github_link": "https://github.com/kasu207/tth-techdegree-project5",
         "image_urls": ["/static/images/project5.png", "/static/images/project51.png"]
@@ -47,7 +47,7 @@
         "id": 6,
         "project_name": "Project6",
         "description" : "six Treehouse Project",
-        "technologies": ["HTML"],
+        "technologies": ["HTML", "node.js", "Express"],
         "live_link": "",
         "github_link": "https://github.com/kasu207/tth-techdegree-project6",
         "image_urls": ["/static/images/project6.png"]
