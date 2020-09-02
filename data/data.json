@@ -50,7 +50,7 @@
         "technologies": ["HTML"],
         "live_link": "",
         "github_link": "https://github.com/kasu207/tth-techdegree-project6",
-        "image_urls": ["https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550", "https://loremflickr.com/1200/550"]
+        "image_urls": ["/static/images/project6.png"]
     }]
 }
     
