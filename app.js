@@ -14,12 +14,13 @@ app.use('/projects', projectRoutes);
 
 //Errors
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
+    const err = new Error('I am sorry, the page you\'ve requested, could not be found');
     err.status = 404;
     next(err);
   });
   
 app.use((err, req, res, next) => {
+    err.message = err.message || 'Unfortunately, something went wrong!';
     res.locals.error = err;
     res.status(err.status);
     res.render('error');
