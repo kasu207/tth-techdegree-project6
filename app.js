@@ -24,6 +24,7 @@ app.use((err, req, res, next) => {
   err.message = err.message || "Looks like there was a problem on the server";
   res.locals.error = err;
   res.status(err.status);
+  console.log(err);
   res.render('error');
 });
 
