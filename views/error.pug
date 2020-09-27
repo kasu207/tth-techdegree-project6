@@ -6,9 +6,7 @@ block content
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
-        //- Use interpolation to dynamically add the project title.
-        
-        img(src='./static/images/error.svg' alt='erro' style='width:50%; height:30%; text-align:center')
+        img(src='./static/images/error.svg' alt='error image' style='width:50%; height:30%; text-align:center')
 
         h1= `${error.message} - Status: ${error.status}`
         p= `Stack: ${error.stack}`

@@ -4,7 +4,7 @@
         "project_name": "Project1",
         "technologies": ["HTML", "Javascript"],
         "description" : "first Treehouse Project",
-        "live_link": "",
+        "live_link": "https://kasu207.github.io/tth-techdegree-project1/",
         "github_link": "https://github.com/kasu207/tth-techdegree-project1",
         "image_urls": ["/static/images/project1.png"]
     },
@@ -13,7 +13,7 @@
         "project_name": "Project2",
         "description" : "second Treehouse Project",
         "technologies": ["HTML", "Javascript"],
-        "live_link": "",
+        "live_link": "https://kasu207.github.io/tth-techdegree-project2/",
         "github_link": "https://github.com/kasu207/tth-techdegree-project2",
         "image_urls": ["/static/images/project2.png"]
     },
@@ -22,7 +22,7 @@
         "project_name": "Project3",
         "description" : "third Treehouse Project",
         "technologies": ["HTML", "Javascript"],
-        "live_link": "",
+        "live_link": "https://kasu207.github.io/tth-techdegree-project3/",
         "github_link": "https://github.com/kasu207/tth-techdegree-project3",
         "image_urls": ["/static/images/project3.png", "/static/images/project31.png"]
     },
@@ -31,7 +31,7 @@
         "project_name": "Project4",
         "description" : "fourth Treehouse Project",
         "technologies": ["HTML"],
-        "live_link": "",
+        "live_link": "https://kasu207.github.io/tth-techdegree-project4/",
         "github_link": "https://github.com/kasu207/tth-techdegree-project4",
         "image_urls": ["/static/images/project4.png", "/static/images/project41.png"]
     },
@@ -40,7 +40,7 @@
         "project_name": "Project5",
         "description" : "fifth Treehouse Project",
         "technologies": ["HTML", "Javascript", "CSS"],
-        "live_link": "",
+        "live_link": "https://kasu207.github.io/tth-techdegree-project5/",
         "github_link": "https://github.com/kasu207/tth-techdegree-project5",
         "image_urls": ["/static/images/project5.png", "/static/images/project51.png"]
     },{
@@ -48,7 +48,7 @@
         "project_name": "Project6",
         "description" : "six Treehouse Project",
         "technologies": ["HTML", "node.js", "Express"],
-        "live_link": "",
+        "live_link": "https://kasu207.github.io/tth-techdegree-project6/",
         "github_link": "https://github.com/kasu207/tth-techdegree-project6",
         "image_urls": ["/static/images/project6.png"]
     }]

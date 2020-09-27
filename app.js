@@ -14,7 +14,7 @@ app.use('/projects', projectRoutes);
 
 //Errors
 app.use((req, res, next) => {
-  const err = new Error('I am sorry, the page you\'ve requested, could not be found');
+  const err = new Error('ERROR: I am sorry, the page you\'ve requested, could not be found');
   err.status = 404;
   next(err);
 });
