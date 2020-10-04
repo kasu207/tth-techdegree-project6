@@ -1,5 +1,5 @@
-{ "data" : {
-    "projects": [{
+{     "projects": [
+    {
         "id": 1,
         "project_name": "Project1",
         "technologies": ["HTML", "Javascript"],
@@ -52,6 +52,4 @@
         "github_link": "https://github.com/kasu207/tth-techdegree-project6",
         "image_urls": ["/static/images/project6.png"]
     }]
-}
-    
 }

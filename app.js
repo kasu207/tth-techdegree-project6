@@ -5,12 +5,14 @@ app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 
 //routes
-const mainRoutes = require('./routes');
-app.use(mainRoutes);
+const routes = require('./routes/index');
+app.use(routes);
 
-//routes - projects 
+//routes - projects
+/*
 const projectRoutes = require('./routes/projects');
 app.use('/projects', projectRoutes);
+*/ 
 
 //Errors HANDLERS
 // 404 Error handler *
