@@ -12,22 +12,29 @@ app.use(mainRoutes);
 const projectRoutes = require('./routes/projects');
 app.use('/projects', projectRoutes);
 
-//Errors
+//Errors HANDLERS
+// 404 Error handler *
 app.use((req, res, next) => {
-  const err = new Error('ERROR: I am sorry, the page you\'ve requested, could not be found');
+  const err = new Error('ERROR: 404 - I am sorry, the page you\'ve requested, could not be found');
   err.status = 404;
   next(err);
 });
-
+/* Global error Handler */
 app.use((err, req, res, next) => {
-  err.status = err.status || 500;
-  err.message = err.message || "Looks like there was a problem on the server";
-  res.locals.error = err;
-  res.status(err.status);
-  console.log(err);
-  res.render('error');
+  if (err.status === 404) {
+    res.status(err.status || 404 );
+    err.message = err.message;
+    res.locals.error = err;
+    console.log(err.message);
+    return res.render('page-not-found', { err });
+  } else if (err.status === 500 ) {
+    res.status(err.status || 500);
+    err.message = err.message || "Looks like there was a problem on the server";
+    res.locals.error = err;
+    console.log(err.message);
+    res.render('error', { err });
+  }
 });
-
 
 //localhost Path
 app.listen(3000, () => {
