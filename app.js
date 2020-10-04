@@ -6,13 +6,7 @@ app.set('view engine', 'pug');
 
 //routes
 const routes = require('./routes/index');
-app.use(routes);
-
-//routes - projects
-/*
-const projectRoutes = require('./routes/projects');
-app.use('/projects', projectRoutes);
-*/ 
+app.use('/', routes);
 
 //Errors HANDLERS
 // 404 Error handler *
