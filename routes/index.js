@@ -4,14 +4,16 @@ const { projects } = require('../data/data.json');
 
 //index Page
 router.get('/', (req, res) => {
+    console.log(projects.find( project => project.id === 1));
     res.render('index', { projects });
 });
 
 //projects Page(s)
 router.get('/projects/:id', (req, res, next) => {
-   const projectId = req.params.id;
+   const projectId = parseInt(req.params.id);
+   console.log(typeof 1);
    //const project = projects.find( ({ id }) => id === +projectId );
-   const project = projects.find((project) => project.id === projectId);
+   const project = projects.find(project => project.id === projectId);
    if (project) {
      res.render('project', { project });
    } else {
