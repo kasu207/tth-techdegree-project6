@@ -11,9 +11,9 @@ router.get('/', (req, res, next) => {
 router.get('/projects/:id', (req, res, next) => {
    const projectId = req.params.id;
    const project = projects.find( ({ id }) => id === parseInt(projectId) );
-   if(project) {
+   if({project}) {
     console.log(project);
-    res.render('project', { project: project });
+    res.render('project', { project });
    } else {
      const err = new Error(`Project with the id: ${req.params.id} does not exist!`);
      err.status = 404;
