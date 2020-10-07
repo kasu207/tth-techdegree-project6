@@ -9,17 +9,17 @@ router.get('/', (req, res, next) => {
 
 //projects Page(s)
 router.get('/projects/:id', (req, res, next) => {
-   const projectId = req.params.id;
-   const project = projects.find( ({ id }) => id === parseInt(projectId) );
+   const projectId = parseInt(req.params.id);
+   const project = projects.find( ({ id }) => id === projectId );
    console.log(typeof project === undefined);
-   if( typeof project === undefined){
-     const err = new Error(`Project with the id: ${req.params.id} does not exist!`);
-     err.status = 404;
-     next(err);
-   } else if({project}) {
-     res.render('project', { project });
-   }
- });
+   if( projects[req.params.id]){
+    res.render('project', { project });
+   } else {
+    const err = new Error(`Project with the id: ${req.params.id} does not exist!`);
+    err.status = 404;
+    next(err);
+ }
+});
 
 //about Page
 router.get('/about', (req, res) => {
